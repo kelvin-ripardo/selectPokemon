@@ -1,0 +1,52 @@
+body {
+    max-width: 100%;
+    background-image:url("../fundoPokemon.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section {
+    background-color: #fff;
+    border: solid 1px #fff;
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 8px 50px rgb(62, 223, 235);
+
+}
+
+.cont {
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+label,input {
+    margin-top: 40px;
+}
+
+#verif {
+    box-shadow: 1px 1px 1px black;
+}
+
+footer {
+    width: 120px;
+    margin: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px 4px black;
+
+}
+
+
+
+

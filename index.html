@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <title>Pokemon</title>
+
+</head>
+
+<body>
+    
+
+    <section>
+
+        <div class="cont">
+
+
+            <h1>Escolha seu pokemon inicial</h1>
+
+            <input type="radio" id="char" name="radpok" checked min="0">
+            <label for="char"> charmander</label>
+
+            <input type="radio" id="squi" name="radpok">
+            <label for="squi"> Squirtle</label>
+
+            <input type="radio" id="bulb" name="radpok">
+            <label for="bulb"> Bullbassaur</label>
+
+            <p>
+                <input id="verif" type="button" value="escolher" onclick="escolher()"></input>
+            </p>
+            
+            
+
+        </div>
+
+        <div id="res">
+
+        </div>
+    </section>
+
+    <footer>
+        <img class ="pokeball" src="src/pokeball.png" width="40px "alt="pokebola">
+        <p> Pokemon</p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+
+</body>
+</html>
